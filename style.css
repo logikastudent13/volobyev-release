@@ -1,0 +1,180 @@
+/* Загальні стилі */
+body {
+    font-family: Dosis Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #6F0909;
+}
+
+/* Шапка */
+.header {
+    background-color: #804615;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+/*     position: sticky; */
+  height:80px;
+  
+}
+
+/* Навігація */
+.navigation {
+    background-color: #8A2E60;
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 1rem;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+/* Основна частина */
+.main-content {
+    display: flex;
+    flex-direction: column;
+  align-items:center;
+    gap: 2rem;
+  padding:30px 0;
+/*     padding: 2rem; */
+}
+section{
+  width:80%;
+}
+/* Розділ 1: Статті у вертикальному напрямку */
+.section-1 {
+    background-color: #8EA336;
+    border: 1px solid #00ADA6;
+    padding: 1.5rem;
+    border-radius: 5px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.section-1 article {
+    background-color: #5B9632;
+    border: 1px solid #AAA139;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Розділ 2: Статті у горизонтальному напрямку */
+.section-2 {
+    background-color: #0DFF00;
+    border: 1px solid #ADFF00;
+    padding: 1.5rem;
+    border-radius: 5px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.section-2 article {
+    background-color: #ffffff;
+    border: 1px solid #90caf9;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-2 img {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Розділ 3: Картковий дизайн статтей */
+.section-3 {
+    background-color: #A400FF;
+    border: 1px solid #FF6200;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+.section-3 div{
+  display:flex;
+  gap:30px;
+}
+
+.section-3 article {
+    background-color: #94FF00;
+    border: 1px solid #FFEF00;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Загальний стиль зображень */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+section article{
+  transition:0.2s;
+}
+section article:hover {
+  cursor:pointer;
+  box-shadow:0 0 3px 0 black;
+}
+
+/* Підвал */
+.footer {
+    background-color: #0400ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+
+
