@@ -1,0 +1,159 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Шапка */
+.header {
+    background-color: #e20000;
+    color: orange;
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+/* Навігація */
+.navigation {
+    background-color: #fbff00;
+    padding: 0.5rem;
+   position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 1rem;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #2afd00;
+    border-radius: 5px;
+}
+
+/* Основна частина */
+.main-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: purple;
+}
+
+/* Розділ 1: Текст із великим зображенням */
+.section-1 {
+    background-color: #00faaf;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-1 img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.section-1 p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Розділ 2: Галерея зображень */
+.section-2 {
+    background-color: green;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #90caf9;
+}
+
+.section-2 p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Розділ 3: Відео */
+.section-3 {
+    background-color: #e01600;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #ffccbc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.video-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+}
+
+.section-3 video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid #ffab91;
+}
+
+.section-3 p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Підвал */
+.footer {
+    background-color: #1900ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
